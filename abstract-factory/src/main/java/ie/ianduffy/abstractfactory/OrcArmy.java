@@ -1,4 +1,4 @@
-package ie.ianduffy;
+package ie.ianduffy.abstractfactory;
 
 public class OrcArmy implements Army {
 
