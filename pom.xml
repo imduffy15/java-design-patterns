@@ -16,6 +16,10 @@
 		<module>singleton</module>
 		<module>adapter</module>
 		<module>composite</module>
+		<module>decorator</module>
+		<module>facade</module>
+		<module>command</module>
+		<module>iterator</module>
 	</modules>
 
 	<dependencies>

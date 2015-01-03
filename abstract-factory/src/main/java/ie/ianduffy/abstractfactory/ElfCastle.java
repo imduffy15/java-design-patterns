@@ -1,6 +1,6 @@
 package ie.ianduffy.abstractfactory;
 
-public class ElfCastle implements Castle {
+class ElfCastle implements Castle {
 
 	@Override
 	public String toString() {

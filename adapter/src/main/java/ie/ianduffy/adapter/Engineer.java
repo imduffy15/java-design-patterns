@@ -1,7 +1,6 @@
 package ie.ianduffy.adapter;
 
-public interface Engineer {
+interface Engineer {
 
 	void operateDevice();
-
 }

@@ -1,8 +1,8 @@
 package ie.ianduffy.factorymethod;
 
-public class OrcWeapon implements Weapon {
+class OrcWeapon implements Weapon {
 
-	private WeaponType weaponType;
+	private final WeaponType weaponType;
 
 	public OrcWeapon(WeaponType weaponType) {
 		this.weaponType = weaponType;

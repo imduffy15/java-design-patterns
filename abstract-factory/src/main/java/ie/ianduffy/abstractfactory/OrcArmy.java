@@ -1,6 +1,6 @@
 package ie.ianduffy.abstractfactory;
 
-public class OrcArmy implements Army {
+class OrcArmy implements Army {
 
 	@Override
 	public String toString() {

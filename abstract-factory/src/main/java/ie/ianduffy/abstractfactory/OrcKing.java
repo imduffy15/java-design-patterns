@@ -1,6 +1,6 @@
 package ie.ianduffy.abstractfactory;
 
-public class OrcKing implements King {
+class OrcKing implements King {
 
 	@Override
 	public String toString() {

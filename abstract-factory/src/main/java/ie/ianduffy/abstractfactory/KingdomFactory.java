@@ -1,6 +1,6 @@
 package ie.ianduffy.abstractfactory;
 
-public interface KingdomFactory {
+interface KingdomFactory {
 
 	Army createArmy();
 

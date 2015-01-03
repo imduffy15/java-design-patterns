@@ -2,7 +2,7 @@ package ie.ianduffy.adapter;
 
 public class GnomeEngineer implements Engineer {
 
-	private GoblinGilder glider;
+	private final GoblinGilder glider;
 
 	public GnomeEngineer() {
 		glider = new GoblinGilder();

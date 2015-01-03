@@ -1,8 +1,8 @@
 package ie.ianduffy.factorymethod;
 
-public class ElfWeapon implements Weapon {
+class ElfWeapon implements Weapon {
 
-	private WeaponType weaponType;
+	private final WeaponType weaponType;
 
 	public ElfWeapon(WeaponType weaponType) {
 		this.weaponType = weaponType;

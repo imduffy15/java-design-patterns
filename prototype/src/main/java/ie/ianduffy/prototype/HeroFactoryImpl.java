@@ -2,11 +2,11 @@ package ie.ianduffy.prototype;
 
 public class HeroFactoryImpl implements HeroFactory {
 
-	private Beast beast;
+	private final Beast beast;
 
-	private Mage mage;
+	private final Mage mage;
 
-	private Warlord warlord;
+	private final Warlord warlord;
 
 	public HeroFactoryImpl(Mage mage, Warlord warlord, Beast beast) {
 		this.mage = mage;

@@ -1,11 +1,11 @@
 package ie.ianduffy.prototype;
 
-public class ElfBeast extends Beast {
+class ElfBeast extends Beast {
 
 	public ElfBeast() {
 	}
 
-	public ElfBeast(ElfBeast beast) {
+	private ElfBeast(ElfBeast beast) {
 	}
 
 	@Override

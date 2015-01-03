@@ -1,6 +1,6 @@
 package ie.ianduffy.prototype;
 
-public interface HeroFactory {
+interface HeroFactory {
 
 	Beast createBeast();
 

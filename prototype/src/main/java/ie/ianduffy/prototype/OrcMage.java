@@ -1,11 +1,11 @@
 package ie.ianduffy.prototype;
 
-public class OrcMage extends Mage {
+class OrcMage extends Mage {
 
 	public OrcMage() {
 	}
 
-	public OrcMage(OrcMage mage) {
+	private OrcMage(OrcMage mage) {
 	}
 
 	@Override

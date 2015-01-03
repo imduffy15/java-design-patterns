@@ -2,7 +2,7 @@ package ie.ianduffy.adapter;
 
 public class GnomeEngineeringManager implements Engineer {
 
-	private Engineer engineer;
+	private final Engineer engineer;
 
 	public GnomeEngineeringManager() {
 		engineer = new GnomeEngineer();

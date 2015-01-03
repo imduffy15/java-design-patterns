@@ -1,6 +1,6 @@
 package ie.ianduffy.adapter;
 
-public class GoblinGilder {
+class GoblinGilder {
 
 	public void attachGlider() {
 		System.out.println("Glider attached");

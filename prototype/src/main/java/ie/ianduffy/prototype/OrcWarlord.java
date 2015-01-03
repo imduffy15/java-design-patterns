@@ -1,11 +1,11 @@
 package ie.ianduffy.prototype;
 
-public class OrcWarlord extends Warlord {
+class OrcWarlord extends Warlord {
 
 	public OrcWarlord() {
 	}
 
-	public OrcWarlord(OrcWarlord warlord) {
+	private OrcWarlord(OrcWarlord warlord) {
 	}
 
 	@Override
