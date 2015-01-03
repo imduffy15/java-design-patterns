@@ -2,14 +2,25 @@ package ie.ianduffy.prototype;
 
 public class HeroFactoryImpl implements HeroFactory {
 
-	private Mage mage;
-	private Warlord warlord;
 	private Beast beast;
+
+	private Mage mage;
+
+	private Warlord warlord;
 
 	public HeroFactoryImpl(Mage mage, Warlord warlord, Beast beast) {
 		this.mage = mage;
 		this.warlord = warlord;
 		this.beast = beast;
+	}
+
+	@Override
+	public Beast createBeast() {
+		try {
+			return beast.clone();
+		} catch (CloneNotSupportedException e) {
+			return null;
+		}
 	}
 
 	@Override
@@ -25,15 +36,6 @@ public class HeroFactoryImpl implements HeroFactory {
 	public Warlord createWarlord() {
 		try {
 			return warlord.clone();
-		} catch (CloneNotSupportedException e) {
-			return null;
-		}
-	}
-
-	@Override
-	public Beast createBeast() {
-		try {
-			return beast.clone();
 		} catch (CloneNotSupportedException e) {
 			return null;
 		}

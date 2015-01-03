@@ -1,6 +1,6 @@
 package ie.ianduffy.abstractfactory;
 
-public class ElfKingdomFactory implements KingdomFactory{
+public class ElfKingdomFactory implements KingdomFactory {
 
 	@Override
 	public Army createArmy() {

@@ -1,6 +1,7 @@
 package ie.ianduffy.builder;
 
 public class App {
+
 	public static void main(String[] args) {
 		Hero warrior = new Hero.HeroBuilder(Profession.WARRIOR, "Richard")
 				.withHairColor(HairColor.BLACK)

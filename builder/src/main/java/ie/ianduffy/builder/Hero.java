@@ -8,11 +8,16 @@ import lombok.ToString;
 @ToString
 public class Hero {
 
-	private final Profession profession;
-	private final String name;
-	private final HairType hairType;
-	private final HairColor hairColor;
 	private final Armor armor;
+
+	private final HairColor hairColor;
+
+	private final HairType hairType;
+
+	private final String name;
+
+	private final Profession profession;
+
 	private final Weapon weapon;
 
 	private Hero(HeroBuilder builder) {
@@ -25,26 +30,36 @@ public class Hero {
 	}
 
 	public static class HeroBuilder {
-		private final Profession profession;
+
 		private final String name;
-		private HairType hairType;
-		private HairColor hairColor;
+
+		private final Profession profession;
+
 		private Armor armor;
+
+		private HairColor hairColor;
+
+		private HairType hairType;
+
 		private Weapon weapon;
 
 		public HeroBuilder(Profession profession, String name) {
-			if(profession == null) {
+			if (profession == null) {
 				throw new NullPointerException("profession cannot be null");
 			}
-			if(name == null) {
+			if (name == null) {
 				throw new NullPointerException("name cannot be null");
 			}
 			this.profession = profession;
 			this.name = name;
 		}
 
-		public HeroBuilder withHairType(HairType hairType) {
-			this.hairType = hairType;
+		public Hero build() {
+			return new Hero(this);
+		}
+
+		public HeroBuilder withArmor(Armor armor) {
+			this.armor = armor;
 			return this;
 		}
 
@@ -53,18 +68,14 @@ public class Hero {
 			return this;
 		}
 
-		public HeroBuilder withArmor(Armor armor) {
-			this.armor = armor;
+		public HeroBuilder withHairType(HairType hairType) {
+			this.hairType = hairType;
 			return this;
 		}
 
 		public HeroBuilder withWeapon(Weapon weapon) {
 			this.weapon = weapon;
 			return this;
-		}
-
-		public Hero build() {
-			return new Hero(this);
 		}
 	}
 }

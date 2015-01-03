@@ -5,7 +5,7 @@ public class OrcWarlord extends Warlord {
 	public OrcWarlord() {
 	}
 
-	public OrcWarlord(OrcWarlord warlord){
+	public OrcWarlord(OrcWarlord warlord) {
 	}
 
 	@Override

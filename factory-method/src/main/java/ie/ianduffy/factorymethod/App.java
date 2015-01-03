@@ -1,6 +1,7 @@
 package ie.ianduffy.factorymethod;
 
 public class App {
+
 	public static void main(String[] args) {
 		Blacksmith blacksmith;
 

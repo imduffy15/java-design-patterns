@@ -5,7 +5,7 @@ public class ElfMage extends Mage {
 	public ElfMage() {
 	}
 
-	public ElfMage(ElfMage mage){
+	public ElfMage(ElfMage mage) {
 	}
 
 	@Override

@@ -1,6 +1,7 @@
 package ie.ianduffy.prototype;
 
 public class App {
+
 	public static void main(String[] args) {
 		HeroFactory factory;
 		Mage mage;
