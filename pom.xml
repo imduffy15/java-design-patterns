@@ -24,6 +24,7 @@
 		<module>memento</module>
 		<module>mediator</module>
 		<module>strategy</module>
+		<module>template-method</module>
 	</modules>
 
 	<dependencies>
