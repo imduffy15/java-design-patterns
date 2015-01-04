@@ -22,6 +22,8 @@
 		<module>iterator</module>
 		<module>observer</module>
 		<module>memento</module>
+		<module>mediator</module>
+		<module>strategy</module>
 	</modules>
 
 	<dependencies>
