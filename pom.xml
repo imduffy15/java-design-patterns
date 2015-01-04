@@ -25,6 +25,7 @@
 		<module>mediator</module>
 		<module>strategy</module>
 		<module>template-method</module>
+		<module>visitor</module>
 	</modules>
 
 	<dependencies>
