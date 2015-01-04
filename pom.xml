@@ -21,6 +21,7 @@
 		<module>command</module>
 		<module>iterator</module>
 		<module>observer</module>
+		<module>memento</module>
 	</modules>
 
 	<dependencies>
